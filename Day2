@@ -1,0 +1,7 @@
+# Problem Statement: Write a program to identify if the character is an alphabet or not
+user_input=input("Enter alphabet: ")
+alphabets= str(["a","e","i","o","u","b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","y","z"]).upper()
+if user_input in alphabets:
+    print("Alphabet")
+else:
+    print("Not an alphabet")
