@@ -1,0 +1,4 @@
+# Problem Statement: Write a program to find ASCII values of a character
+a = input("Enter character: ")
+asc = ord(a)
+print("ASCII code of",a,"is:", asc)
