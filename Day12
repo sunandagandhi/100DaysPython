@@ -1,0 +1,9 @@
+#Problem statement: Write a program to find Sum of digits of a number
+
+def sum():
+   n=input("Enter number: ")
+   final_sum=0
+   for i in str(n):
+       final_sum+=int(i)
+   return final_sum 
+print(sum())
