@@ -1,0 +1,16 @@
+#Problem Statement: Write a python program to replace all 0's with 1 in a given integer.
+
+n=int(input("Enter number: "))
+s=str(n)
+l=[]
+
+for i in s:
+    if i=="0":
+        l.append("1")
+    else:
+        l.append(i)
+
+final_sum=""
+for i in l:
+    final_sum+=i
+print(int(final_sum))
