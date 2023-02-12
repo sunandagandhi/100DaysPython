@@ -1,0 +1,6 @@
+#Problem Statement: Write a program to find Area of a circle
+
+radius=float(input("Enter radius: "))
+area_of_circle=3.14*radius*radius
+final_area=round((area_of_circle),2)
+print(x)
