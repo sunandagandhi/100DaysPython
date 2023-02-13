@@ -1,0 +1,3 @@
+#Problem Statement: Write a program to find the double of the given number without using arithmetic operator
+num=int(input("Enter a number: "))
+print((num<<1))
