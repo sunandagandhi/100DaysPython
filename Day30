@@ -1,0 +1,7 @@
+#Problem Statement: Write a Program to print Length of the string without using strlen() function
+
+str=input("Enter string")
+var=0
+for i in str:
+  var=var+1
+print(var)
