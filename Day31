@@ -1,0 +1,3 @@
+#Write a Program to Toggle each character in a string
+str=input("Enter string: ")
+print(str.swapcase())
