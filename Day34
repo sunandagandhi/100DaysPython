@@ -1,0 +1,9 @@
+#Problem Statement: Write a program to remove brackets from an algebraic expression
+
+print("Enter String: ", end="")
+text = input()
+bracket = ['(',')']
+for c in text:
+ if c in bracket:
+  text = text.replace(c, "")
+print(text)
