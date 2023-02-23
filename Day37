@@ -1,0 +1,11 @@
+#Write a Program to calculate the Frequency of characters in a string
+
+Str = input('Enter the string :')
+freq = 0
+
+for i in range(0,len(Str)):
+
+    Char = Str[i]
+    freq = Str.count(Char)
+    print(str(freq) + ' is the frequency of '+Char)
+    
