@@ -1,0 +1,6 @@
+#Problem Statement: Write a Program to Capitalize the first and last letter of each word of a string
+
+str=input("Enter string: ")
+
+final_str=str[0:1].upper() + str[1:len(str)-1] + str[len(str)-1 : len(str)].upper()
+print(final_str)
