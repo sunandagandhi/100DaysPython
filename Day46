@@ -1,0 +1,12 @@
+#Write Program to find sum of elements in an array
+
+n=int(input("Enter the size of array: "))
+arr=[]
+for i in range(0,n):
+    temp=int(input())
+    arr.append(temp)
+
+sum=0
+for j in arr:
+    sum+=j
+print(f"Sum of array elements: {sum}")
